@@ -12,6 +12,14 @@
   "keywords": [
     "markdown"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OwnGhy/md-info-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OwnGhy/md-info-generator/issues"
+  },
+  "homepage": "https://github.com/OwnGhy/md-info-generator#readme",
   "author": " <Ownghy 919986426@qq.com>",
   "license": "ISC",
   "dependencies": {
