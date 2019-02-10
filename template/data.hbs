@@ -1,0 +1,21 @@
+{
+    "blog": [
+    {{#each data}}
+        {{#if @last}}
+            {
+                "tags": "{{tags}}",
+                "title": "{{title}}",
+                "date": "{{date}}",
+                "id": "{{id}}"
+            }
+        {{else}}
+            {
+                "tags": "{{tags}}",
+                "title": "{{title}}",
+                "date": "{{date}}",
+                "id": "{{id}}"
+            },
+        {{/if}}
+    {{/each}}
+    ]
+}

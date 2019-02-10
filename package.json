@@ -1,0 +1,23 @@
+{
+  "name": "md-info-generator",
+  "version": "1.0.0",
+  "description": "a tool to generator information in markdown files annotation.",
+  "main": "index.js",
+  "bin": {
+    "md-info": "./bin/md-info.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": " <Ownghy 919986426@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-md5": "^2.10.0",
+    "handlebars": "^4.0.12",
+    "js-beautify": "^1.8.9",
+    "ora": "^3.0.0"
+  }
+}
