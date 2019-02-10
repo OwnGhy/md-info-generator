@@ -20,6 +20,7 @@
 ```
 $ npm i md-info-generator --save-dev
 ```
+[![NPM version](https://img.shields.io/npm/v/md-info-generator.svg?style=flat)](https://www.npmjs.com/package/md-info-generator)
 
 ## 配置
 项目目录下添加`gen.config.js`配置文件：
