@@ -1,7 +1,7 @@
 const path = require('path');
-const script = process.argv.slice(-2)[0];
+const script = process.argv.slice(-1)[0];
 
-const configPath = process.argv.slice(-1)[0] || 'gen.config.js';
+const configPath = 'gen.config.js'
 
 try {
     const config = require(path.resolve(process.cwd(), configPath));
