@@ -1,6 +1,6 @@
 {
   "name": "md-info-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a tool to generator information in markdown files annotation.",
   "main": "index.js",
   "bin": {
