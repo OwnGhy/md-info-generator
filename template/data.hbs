@@ -1,21 +1,11 @@
 {
     "blog": [
-    {{#each data}}
-        {{#if @last}}
+        {{#each data as | value |}}
             {
-                "tags": "{{tags}}",
-                "title": "{{title}}",
-                "date": "{{date}}",
-                "id": "{{id}}"
-            }
-        {{else}}
-            {
-                "tags": "{{tags}}",
-                "title": "{{title}}",
-                "date": "{{date}}",
-                "id": "{{id}}"
-            },
-        {{/if}}
-    {{/each}}
+                {{#each value}}
+                    "{{@key}}": "{{this}}"{{#unless @last}},{{/unless}}
+                {{/each}}
+                }{{#unless @last}},{{/unless}}
+        {{/each}}
     ]
 }
