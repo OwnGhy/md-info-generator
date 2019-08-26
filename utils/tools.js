@@ -17,6 +17,17 @@ const promisify = function (nodeFunction) {
     };
 };
 
+const getDate = (date) => {
+    const dateFormat = date ? new Date(date) : new Date();
+
+    const year = dateFormat.getFullYear();
+    const month = dateFormat.getMonth() + 1;
+    const day = dateFormat.getDate();
+
+    return `${year}-${month >= 10 ? month : `0${month}`}-${day >= 10 ? day : `0${day}`}`;
+};
+
 module.exports =  {
-    promisify
+    promisify,
+    getDate
 }
