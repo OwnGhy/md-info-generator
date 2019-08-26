@@ -48,6 +48,11 @@ $ md-info --gen
 $ md-info --clean
 ```
 
+生成默认 md 文件
+```
+$ md-info --new xxx.md
+```
+
 可结合`npm start`，配置需要项目启动时就生成相关信息：
 
 ```javascript
